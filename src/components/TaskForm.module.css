@@ -9,20 +9,20 @@
   padding: 8px 15px;
   margin-bottom: 1.5em;
   border-radius: 0;
-  border: 1px solid #282c34;
+  border: 1px solid var(--text-color);
 }
 
 .form input[type="submit"] {
-  background-color: #61dafb;
-  border: 1px solid #61dafb;
+  background-color: var(--accent2);
+  border: 1px solid var(--accent3);
   color: black;
   transition: 0.5s;
   cursor: pointer;
 }
 
 .form input[type="submit"]:hover {
-  background-color: #fff;
-  border-color: #282c34;
+  background-color: var(--primary);
+  border-color: var(--text-color);
 }
 
 .input_container {

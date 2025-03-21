@@ -1,13 +1,13 @@
 .footer {
+  background-color: var(--primary);
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: gray;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .footer span {
   font-weight: bold;
-  color: aqua;
+  color: var(--accent);
 }

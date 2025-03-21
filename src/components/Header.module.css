@@ -1,6 +1,6 @@
 .header {
-  background-color: gray;
-  color: aqua;
+  background-color: var(--primary);
+  color: var(--text-color);
   text-align: center;
   padding: 1em;
 }

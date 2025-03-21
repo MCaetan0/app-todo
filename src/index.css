@@ -1,7 +1,20 @@
+:root {
+  --primary: #fef7f7;
+  --secondary: #000;
+  --tertiary: #BBBBBB;
+
+  --accent: #005679;
+  --accent2: #00CAD1;
+  --accent3: #153555;
+  --accent4: #e0ebf8;
+
+  --text-color: #1D1D1D;
+}
+
 * {
   padding: 0;
   margin: 0;
-  font-family: Helvetica, sans-serif;
+  --font-family: "Winky-Sans", sans-serif;
 }
 
 .hide {
